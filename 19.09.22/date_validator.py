@@ -3,8 +3,7 @@ def valid_date(date):
     try:
         day, month, year = int(date[0]), int(date[1]), int(date[2])
     except Exception:
-       print('Input format: DD.MM.YYYY') 
-       return
+       return 'Input format: DD.MM.YYYY'
     leap_year = (year % 4 == 0 and year % 100 != 0) or year % 400 == 0
     leap_date = leap_year and day == 29 and month == 2
     normal_30 = month in (4, 6, 9, 11) and day in range(1, 31)
