@@ -1,4 +1,4 @@
-first note: 2022-09-29
-second note: 2022-09-30
-third note: 2022-10-01
-fourth note: 2022-10-02
+2022-09-29: first note
+2022-09-30: second note
+2022-10-01: third note
+2022-10-02: fourth note
