@@ -11,4 +11,4 @@ for line in lines:
             num_low += 1
     if num_up > num_low:
         upper += 1
-print('Заглавных букв больше в {0}% строк'.format(upper/cnt_lines*100))
+print('Заглавных букв больше в {0}% строк'.format(upper / cnt_lines * 100))
