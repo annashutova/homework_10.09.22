@@ -1,3 +1,8 @@
 config/.env
 __pycache__
 *__pycache__*
+ignore_me.txt
+app/ignored/
+*.py[cdo]
+app/**/*.log
+!app/main.log
