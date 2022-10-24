@@ -8,7 +8,7 @@ tests = [
 ]
 
 
-@pytest.mark.parametrize('inp, result', tests)
-def test_first(inp, result):
+@pytest.mark.parametrize('inp, answer', tests)
+def test_first(inp, answer):
     """Tests check_upper function."""
-    assert first_task.check_upper(inp) == result
+    assert first_task.check_upper(inp) == answer
